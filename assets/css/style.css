@@ -3,5 +3,16 @@
    }
 
    @font-face {
-    font-family:'Space Mono';
-    src: url(.);}
+    font-family:'Segoe UI';
+    src: url(../fonts/Segoe\ UI.ttf);}
+
+    .box-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97px;
+    height: 97px;
+    border: 2px solid transparent;
+    border-radius: 336px;
+    background-image:  Linear Gradient rgba(214, 41, 119, 1) rgba(237, 129, 40, 1);
+    }
