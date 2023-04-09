@@ -16,3 +16,11 @@
     border-radius: 336px;
     background-image:  Linear Gradient rgba(214, 41, 119, 1) rgba(237, 129, 40, 1);
     }
+
+    .main{
+    width: 732px;        
+    background-color: #EFEFEF;
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    }
