@@ -18,9 +18,30 @@
     }
 
     .main{
-    width: 732px;        
+    height: 563px;
+    width: 790px;        
     background-color: #EFEFEF;
     border-radius: 36px;
-    display: flex;
-    align-items: center;
+    }
+
+    .text-like{
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.01em;
+
+color: #9A9A9A;
+    }
+
+    .text-btn{
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.01em;
+
+color: #9A9A9A;
     }
