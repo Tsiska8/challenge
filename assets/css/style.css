@@ -7,14 +7,16 @@
     src: url(../fonts/Segoe\ UI.ttf);}
 
     .box-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 97px;
-    height: 97px;
-    border: 2px solid transparent;
-    border-radius: 336px;
-    background-image:  Linear Gradient rgba(214, 41, 119, 1) rgba(237, 129, 40, 1);
+  height:90px;
+  width: 90px;
+  border-style: solid;
+  border-color: #d62977;
+  border-radius: 336px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
     }
 
     .main{
@@ -45,3 +47,35 @@ letter-spacing: 0.01em;
 
 color: #9A9A9A;
     }
+
+    .arrow{
+width: 49px;
+height: 49px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 250px;
+left: 36px;
+
+background: rgba(255, 255, 255, 0.25);
+border: 1px solid rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(2.5px);
+border-radius: 36px;
+    }
+
+    .arrow1{
+width: 49px;
+height: 49px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 250px;
+left: 428px;
+        
+background: rgba(255, 255, 255, 0.25);
+border: 1px solid rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(2.5px);
+border-radius: 36px;
+}
